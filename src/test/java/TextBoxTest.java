@@ -4,9 +4,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = {"src/test/resources/features/PracticeForm.feature"},
+        features = {"src/test/resources/Features/TextBox.feature"},
         tags = {" "}
-
 )
-public class PracticeFormTest {
+public class TextBoxTest {
 }
