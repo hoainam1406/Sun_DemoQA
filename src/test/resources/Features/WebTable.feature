@@ -21,7 +21,7 @@ Feature: Webtable
   Scenario: Verify on entering data to all textfield
     Given I want open webtable page
     When I click on add button
-    And Enter data to all textfield
+    And I enter data to all textfield
       | FirstName | LastName | Email               | Age | Salary  | Department  |
       | Phuong    | Hong     | phuong123@gmail.com | 18  | 2000000 | Tester Team |
     And I click submit button
