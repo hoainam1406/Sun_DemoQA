@@ -51,5 +51,8 @@ public class PracticeFormUI extends PageObject {
     @FindBy(xpath = "//textarea[@id='currentAddress']")
     public WebElementFacade txtCurrentAddress;
 
+    @FindBy(xpath = "//input[@id='uploadPicture']")
+    public WebElementFacade btnUploadPicture;
+
 
 }

@@ -50,6 +50,7 @@ public class PracticeFormSteps extends PageObject {
             Ui.txtMobile.sendKeys(practiceFormObjects.getMobileNumber());
             Ui.txtDateOfBirth.sendKeys(practiceFormObjects.getDateOfBirth());
             Ui.lblHobbieReading.click();
+            Ui.btnUploadPicture.sendKeys("C:/Users/hoain/OneDrive/Máy tính/image.jpg");
             Ui.txtCurrentAddress.sendKeys(practiceFormObjects.getCurrentAddress());
         }
     }
