@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="PracticeFormTest" time="459.282" tests="15" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\hoain\OneDrive\Máy tính\DemoQA_Sun"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\hoain\OneDrive\Máy tính\DemoQA_Sun"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\hoain\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\plugins\maven\lib\maven3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\plugins\maven\lib\maven3\bin;C:\Users\hoain\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\hoain\AppData\Local\Programs\Python\Python38\;C:\Users\hoain\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.2\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\plugins\maven\lib\maven3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\plugins\maven\lib\maven3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\hoain"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="hoain"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\plugins\maven\lib\maven3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\plugins\maven\lib\maven3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Check the behavior of form by not filling up any data into the form." classname="Registration Form" time="33.079"/>
+  <testcase name="Check the behavior of form by filling up all fields." classname="Registration Form" time="31.751"/>
+  <testcase name="Check the behavior of form by filling up the required fields only." classname="Registration Form" time="32.055"/>
+  <testcase name="Check the Full name text field without adding First name." classname="Registration Form" time="29.779"/>
+  <testcase name="Check the Full name text field without adding Last name." classname="Registration Form" time="29.396"/>
+  <testcase name="Check the full name field by filling up numeric characters instead of string." classname="Registration Form" time="29.607">
+    <failure message="expected:&lt;rgba([220, 53], 69, 1)&gt; but was:&lt;rgba([40, 167], 69, 1)&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<rgba([220, 53], 69, 1)> but was:<rgba([40, 167], 69, 1)>
+]]></failure>
+    <system-out><![CDATA[11:41:03.149 [main] INFO  n.t.c.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Check the full name field by filling up numeric characters instead of string.
+-------------------------------------------------------------------(registration-form;check-the-full-name-field-by-filling-up-numeric-characters-instead-of-string.)
+11:41:03.160 [main] DEBUG n.s.c.w.s.ChromeServicePool - Creating new driver instance with capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [test-type, test-type], extensions: []}, platform: ANY, version: }
+11:41:31.826 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\72b1285afef90fcfb72bbb143764be1f6c02552c317c7aed62b4e76d6bc3d1c9.png
+11:41:31.826 [main] DEBUG n.s.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\72b1285afef90fcfb72bbb143764be1f6c02552c317c7aed62b4e76d6bc3d1c9.png
+11:41:31.826 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2973537726775997497
+11:41:31.826 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\72b1285afef90fcfb72bbb143764be1f6c02552c317c7aed62b4e76d6bc3d1c9.png
+11:41:32.192 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\a08b8fc2a53e072ee3589027984838b59db342ca1c1ece4baae64b7f3fdcb9ee.png
+11:41:32.192 [main] DEBUG n.s.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\a08b8fc2a53e072ee3589027984838b59db342ca1c1ece4baae64b7f3fdcb9ee.png
+11:41:32.192 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3415640123754494099
+11:41:32.192 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\a08b8fc2a53e072ee3589027984838b59db342ca1c1ece4baae64b7f3fdcb9ee.png
+11:41:32.468 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\0994048741019d0b1bbae2c70d3be94d8c25788a97585dce2acfdaf5e9195673.png
+11:41:32.468 [main] DEBUG n.s.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\0994048741019d0b1bbae2c70d3be94d8c25788a97585dce2acfdaf5e9195673.png
+11:41:32.468 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1099056478555696059
+11:41:32.468 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\0994048741019d0b1bbae2c70d3be94d8c25788a97585dce2acfdaf5e9195673.png
+11:41:32.678 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\ffe908fa5fd679a7ee884f9d809aac3228745e617bbc6cdfd62ae2b31f65e74e.png
+11:41:32.678 [main] DEBUG n.s.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\ffe908fa5fd679a7ee884f9d809aac3228745e617bbc6cdfd62ae2b31f65e74e.png
+11:41:32.679 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7494163786676035314
+11:41:32.679 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\ffe908fa5fd679a7ee884f9d809aac3228745e617bbc6cdfd62ae2b31f65e74e.png
+11:41:32.726 [main] ERROR n.t.c.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Check the full name field by filling up numeric characters instead of string.
+--------------------------------------------------------------------------
+11:41:32.726 [main] DEBUG n.t.c.steps.ConsoleLoggingListener - RELATED ISSUES: 
+11:41:32.727 [main] ERROR n.t.c.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then Lastname and Firstname fields should show the red border
+11:41:32.727 [main] ERROR n.t.c.steps.ConsoleLoggingListener - expected:<rgba([220, 53], 69, 1)> but was:<rgba([40, 167], 69, 1)>
+]]></system-out>
+    <system-err><![CDATA[Jul 17, 2021 11:41:03 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Jul 17, 2021 11:41:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Check the behavior of form by filling up special characters instead of string." classname="Registration Form" time="29.844">
+    <failure message="expected:&lt;rgba([220, 53], 69, 1)&gt; but was:&lt;rgba([40, 167], 69, 1)&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<rgba([220, 53], 69, 1)> but was:<rgba([40, 167], 69, 1)>
+]]></failure>
+    <system-out><![CDATA[11:41:32.729 [main] INFO  n.t.c.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Check the behavior of form by filling up special characters instead of string.
+-------------------------------------------------------------------(registration-form;check-the-behavior-of-form-by-filling-up-special-characters-instead-of-string.)
+11:41:32.738 [main] DEBUG n.s.c.w.s.ChromeServicePool - Creating new driver instance with capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [test-type, test-type], extensions: []}, platform: ANY, version: }
+11:42:01.800 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\a6f8b6916cf07263e68e43ca03b1e219ddc44df39c671aa31caaaeb93af0c78b.png
+11:42:01.800 [main] DEBUG n.s.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\a6f8b6916cf07263e68e43ca03b1e219ddc44df39c671aa31caaaeb93af0c78b.png
+11:42:01.800 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-64990472964990489
+11:42:01.800 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\a6f8b6916cf07263e68e43ca03b1e219ddc44df39c671aa31caaaeb93af0c78b.png
+11:42:02.136 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\d5cbcbee2916274c2b0884aa08daa3e67e6c9ed5b23fb913b1fd061e743f1ecb.png
+11:42:02.136 [main] DEBUG n.s.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\d5cbcbee2916274c2b0884aa08daa3e67e6c9ed5b23fb913b1fd061e743f1ecb.png
+11:42:02.137 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4862692415151420356
+11:42:02.137 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\d5cbcbee2916274c2b0884aa08daa3e67e6c9ed5b23fb913b1fd061e743f1ecb.png
+11:42:02.382 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\8ba1fc0cdadafd2f87e7f85eedf48166ffed04d622ac29d09be1d022c902ec2a.png
+11:42:02.382 [main] DEBUG n.s.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\8ba1fc0cdadafd2f87e7f85eedf48166ffed04d622ac29d09be1d022c902ec2a.png
+11:42:02.383 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-209520431982620570
+11:42:02.383 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\8ba1fc0cdadafd2f87e7f85eedf48166ffed04d622ac29d09be1d022c902ec2a.png
+11:42:02.590 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\b4a4d158a0441f47c5ea506e4fe9df2e857328cc95e2dc85d207b487491172ab.png
+11:42:02.590 [main] DEBUG n.s.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\b4a4d158a0441f47c5ea506e4fe9df2e857328cc95e2dc85d207b487491172ab.png
+11:42:02.590 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5179636941024418507
+11:42:02.590 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\b4a4d158a0441f47c5ea506e4fe9df2e857328cc95e2dc85d207b487491172ab.png
+11:42:02.639 [main] ERROR n.t.c.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Check the behavior of form by filling up special characters instead of string.
+--------------------------------------------------------------------------
+11:42:02.639 [main] DEBUG n.t.c.steps.ConsoleLoggingListener - RELATED ISSUES: 
+11:42:02.639 [main] ERROR n.t.c.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then Lastname and Firstname fields should show the red border
+11:42:02.639 [main] ERROR n.t.c.steps.ConsoleLoggingListener - expected:<rgba([220, 53], 69, 1)> but was:<rgba([40, 167], 69, 1)>
+]]></system-out>
+    <system-err><![CDATA[Jul 17, 2021 11:41:32 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Jul 17, 2021 11:41:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Check the Email text field that can be empty" classname="Registration Form" time="29.481"/>
+  <testcase name="Check the Email text field that has random string instead of real email." classname="Registration Form" time="29.677"/>
+  <testcase name="Check the Email text field that must be in correct format." classname="Registration Form" time="29.749"/>
+  <testcase name="Check the Email text field that must not have a bank space." classname="Registration Form" time="30.319"/>
+  <testcase name="Check the Gender field must be checked." classname="Registration Form" time="30.578"/>
+  <testcase name="Mobile number field cannot be empty" classname="Registration Form" time="31.89"/>
+  <testcase name="Mobile field must have 10 digits" classname="Registration Form" time="30.028"/>
+  <testcase name="Mobile field cannot contain letter or special symbols" classname="Registration Form" time="29.746"/>
+</testsuite>

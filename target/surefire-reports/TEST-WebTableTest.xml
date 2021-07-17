@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="WebTableTest" time="376.216" tests="12" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\hoain\OneDrive\Máy tính\DemoQA_Sun"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\hoain\OneDrive\Máy tính\DemoQA_Sun"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\hoain\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\plugins\maven\lib\maven3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\plugins\maven\lib\maven3\bin;C:\Users\hoain\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\hoain\AppData\Local\Programs\Python\Python38\;C:\Users\hoain\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.2\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\plugins\maven\lib\maven3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\plugins\maven\lib\maven3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\hoain"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="hoain"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\plugins\maven\lib\maven3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\plugins\maven\lib\maven3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Verify that data display correct in Grid Member" classname="Webtable" time="28.709"/>
+  <testcase name="Verify that open Registration Form success when user click on add button" classname="Webtable" time="29.57"/>
+  <testcase name="Verify on entering data to all textfield" classname="Webtable" time="31.149"/>
+  <testcase name="Verify on entering data to email textfield" classname="Webtable" time="31.202"/>
+  <testcase name="Verify on entering data to age textfield" classname="Webtable" time="30.52"/>
+  <testcase name="Verify on entering data to salary textfield" classname="Webtable" time="30.626"/>
+  <testcase name="Verify on all textfields are blank" classname="Webtable" time="30.393"/>
+  <testcase name="Verify on updating data to all textfield" classname="Webtable" time="38.763"/>
+  <testcase name="Verify on updating data to email textfield" classname="Webtable" time="30.806"/>
+  <testcase name="Verify on updating data to age textfield" classname="Webtable" time="31.248"/>
+  <testcase name="Verify on updating to salary textfield" classname="Webtable" time="31.283"/>
+  <testcase name="Verify on click delete icon" classname="Webtable" time="30.754">
+    <failure message="expected:&lt;[ ]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[ ]> but was:<[]>
+]]></failure>
+    <system-out><![CDATA[11:59:21.621 [main] INFO  n.t.c.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Verify on click delete icon
+-------------------------------------------------------------------(webtable;verify-on-click-delete-icon)
+11:59:21.632 [main] DEBUG n.s.c.w.s.ChromeServicePool - Creating new driver instance with capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [test-type, test-type], extensions: []}, platform: ANY, version: }
+11:59:51.625 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\273f0e53a839e76e8460178b950c8f7d6d8415b9060634e2256d69622c8a3aea.png
+11:59:51.625 [main] DEBUG n.s.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\273f0e53a839e76e8460178b950c8f7d6d8415b9060634e2256d69622c8a3aea.png
+11:59:51.625 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4341554761839809994
+11:59:51.625 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\273f0e53a839e76e8460178b950c8f7d6d8415b9060634e2256d69622c8a3aea.png
+11:59:51.907 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\f86abd6a61117bf9a9542df225bc11e4e584240da90ad61841b68d55d8c7e25f.png
+11:59:51.907 [main] DEBUG n.s.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\f86abd6a61117bf9a9542df225bc11e4e584240da90ad61841b68d55d8c7e25f.png
+11:59:51.908 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-195805770625264385
+11:59:51.908 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\f86abd6a61117bf9a9542df225bc11e4e584240da90ad61841b68d55d8c7e25f.png
+11:59:52.154 [main] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\968ed37c8a01e80c6ba08ccd9485a2db7e675af4b3562ab7eb1acac7b38aedd8.png
+11:59:52.154 [main] DEBUG n.s.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\968ed37c8a01e80c6ba08ccd9485a2db7e675af4b3562ab7eb1acac7b38aedd8.png
+11:59:52.155 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4337207425058789246
+11:59:52.155 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\968ed37c8a01e80c6ba08ccd9485a2db7e675af4b3562ab7eb1acac7b38aedd8.png
+11:59:52.225 [main] ERROR n.t.c.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Verify on click delete icon
+--------------------------------------------------------------------------
+11:59:52.225 [main] DEBUG n.t.c.steps.ConsoleLoggingListener - RELATED ISSUES: 
+11:59:52.226 [main] ERROR n.t.c.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then The website display Member in Grid except record deleted
+11:59:52.227 [main] ERROR n.t.c.steps.ConsoleLoggingListener - expected:<[ ]> but was:<[]>
+]]></system-out>
+    <system-err><![CDATA[Jul 17, 2021 11:59:21 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Jul 17, 2021 11:59:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

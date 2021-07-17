@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: PracticeFormTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 459.282 s <<< FAILURE! - in PracticeFormTest
+Check the full name field by filling up numeric characters instead of string.(Registration Form)  Time elapsed: 29.607 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<rgba([220, 53], 69, 1)> but was:<rgba([40, 167], 69, 1)>
+
+Check the behavior of form by filling up special characters instead of string.(Registration Form)  Time elapsed: 29.844 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<rgba([220, 53], 69, 1)> but was:<rgba([40, 167], 69, 1)>
+
