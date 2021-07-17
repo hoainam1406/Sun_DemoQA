@@ -5,7 +5,7 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 
 public class TabUI extends PageObject {
-    @FindBy(xpath = "//p[contains(text(),'Lorem Ipsum is simply dummy text of the printing a')]")
+    @FindBy(id = "demo-tabpane-what")
     public WebElementFacade txtWhatTab;
 
     @FindBy(xpath = " //a[@id='demo-tab-origin']")

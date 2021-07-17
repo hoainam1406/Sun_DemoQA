@@ -25,7 +25,7 @@ public class PracticeFormUI extends PageObject {
     public WebElementFacade lblGenderMale;
 
     @FindBy(xpath = "//label[contains(text(),'Female')]")
-    public WebElementFacade lblGenderfFemale;
+    public WebElementFacade lblGenderFemale;
 
     @FindBy(xpath = "//label[contains(text(),'Other')]")
     public WebElementFacade lblGenderOther;
@@ -39,14 +39,8 @@ public class PracticeFormUI extends PageObject {
     @FindBy(xpath = "//body/div[@id='app']/div[1]/div[1]/div[2]/div[2]/div[1]/form[1]/div[6]/div[2]/div[1]/div[1]/div[1]")
     public WebElementFacade txtSubjects;
 
-    @FindBy(xpath = "//label[contains(text(),'Sports')]")
-    public WebElementFacade lblHobbieSprots;
-
     @FindBy(xpath = "//label[contains(text(),'Reading')]")
     public WebElementFacade lblHobbieReading;
-
-    @FindBy(xpath = "//label[contains(text(),'Music')]")
-    public WebElementFacade lblHobbieMusic;
 
     @FindBy(xpath = "//textarea[@id='currentAddress']")
     public WebElementFacade txtCurrentAddress;

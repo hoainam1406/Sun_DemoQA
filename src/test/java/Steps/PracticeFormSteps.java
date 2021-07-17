@@ -46,7 +46,7 @@ public class PracticeFormSteps extends PageObject {
             Ui.txtFirstname.sendKeys(practiceFormObjects.getFirstName());
             Ui.txtLastname.sendKeys(practiceFormObjects.getLastName());
             Ui.txtEmail.sendKeys(practiceFormObjects.getEmail());
-            Ui.lblGenderMale.click();
+            Ui.lblGenderFemale.click();
             Ui.txtMobile.sendKeys(practiceFormObjects.getMobileNumber());
             Ui.txtDateOfBirth.sendKeys(practiceFormObjects.getDateOfBirth());
             Ui.lblHobbieReading.click();
@@ -66,7 +66,7 @@ public class PracticeFormSteps extends PageObject {
             Ui.txtFirstname.sendKeys(practiceFormObjects.getFirstName());
             Ui.txtLastname.sendKeys(practiceFormObjects.getLastName());
             Ui.txtEmail.sendKeys(practiceFormObjects.getEmail());
-            Ui.lblGenderMale.click();
+            Ui.lblGenderOther.click();
             Ui.txtMobile.sendKeys(practiceFormObjects.getMobileNumber());
         }
     }
