@@ -17,8 +17,8 @@ public class TabSteps {
         tabPage.openTabPage();
     }
 
-    @When("^The website should show the \"([^\"]*)\"$")
-    public void theWebsiteShouldShowThe(String message) throws Throwable {
+    @When("^The what tab should show the \"([^\"]*)\"$")
+    public void theWhatTabShouldShowThe(String message) throws Throwable {
         Assert.assertEquals(tabPage.getTextWhatTab(),message);
     }
 
